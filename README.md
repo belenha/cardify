@@ -1,4 +1,4 @@
-# Cardify
+# Cardify Reloaded
 
 * **Track:** _Common Core_
 * **Curso:** _JS Deep Dive: Crea tu propia librería usando JavaScript_
@@ -13,24 +13,23 @@ con el texto del atributo `alt` de la imagen.
 
 ## Flujo de trabajo
 
-1. Debes realizar un [**fork**](https://gist.github.com/ivandevp/1de47ae69a5e139a6622d78c882e1f74)
-   de este repositorio.
+1. Inicio
+    * Se escribe primera versión del README.md con una descripción general de la biblioteca.
+    * Se inicializa proyecto con npm init y git init. 
+    * Se crea index.html además del diseño de la página que contiene las instrucciones para el usuario. 
+    * Se crean los primeros issues en GitHub. 
 
-2. Luego deberás **clonar** tu fork en tu máquina. Recuerda que el comando a usar
-   es `git clone` y su estructura normalmente se ve así:
+2. Desarrollo de la funcionalidad. 
+    * Se instala babel 
+    * Se implementa funcionalidad
+    * Se preapara el entorno para desarrollo de pruebas con Nodejs. 
+    * Se hace code review. 
 
-   ```bash
-   git clone https://github.com/<nombre-de-usuario>/cardify.git
-   ```
-
-3. Cuando hayas terminado tu producto, envía un Pull Request a la rama que tus
-   instructorxs este repositorio
-   (puedes solicitar apoyo de tus profes para este paso).
-
-> Nota: No olvides que es una buena práctica describir tu proyecto en este
-> archivo `README.md` :smiley:.
-
-***
+3. Fase final
+    * Se realizan pruebas. 
+    * Completar la implementación de librería. 
+    * Se realiza code review. 
+    * Se publica biblioteca. 
 
 ## Instalación
 
