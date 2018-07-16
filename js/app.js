@@ -1,4 +1,4 @@
-const saludo = console.log("hello");
+const pictures = require("index.js");
 
 $(document).ready(function(){
 
