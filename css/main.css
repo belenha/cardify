@@ -1,5 +1,8 @@
-body{
+*{
+    box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .brand-logo{
@@ -7,4 +10,14 @@ body{
     left: 20px;
     position: relative;
     font-size: 10px;
+}
+
+.final{
+    margin-bottom: 0 !important;
+}
+
+.text{
+    bottom: 8vh;
+    position: relative;
+
 }
