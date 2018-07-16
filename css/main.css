@@ -1,0 +1,10 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.brand-logo{
+    font-family: 'Rammetto One', cursive;
+    left: 20px;
+    position: relative;
+    font-size: 10px;
+}

@@ -5,25 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
-    <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rammetto+One" rel="stylesheet">
     <title>Cardify</title>
 </head>
 <body>
-    <main class="container">
-        <div class="row">
-            <div class="wrap col s4"><img class="responsive-img"  src="assets/images/natu1.jpg" alt="">
-            </div>
-            <div class="wrap col s4"><img class="responsive-img" src="assets/images/natu2.jpg" alt="">
-            </div>
-            <div class="wrap col s4"><img class="responsive-img" src="assets/images/natu3.jpg" alt=""></div>
+    <nav class="light-green accent-2">
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo">Cardify Reloaded</a>
         </div>
-        <div class="row">
-            <div class="wrap col s4"><img class="responsive-img" src="assets/images/natu4.jpg" alt=""></div>
-            <div class="wrap col s4"><img class="responsive-img" src="assets/images/natu5.jpeg" alt=""></div>
-            <div class="wrap col s4"><img class="responsive-img" src="assets/images/natu6.jpg" alt=""></div>
+    </nav>
+    <header class="center-align">
+        <h1>Cardify Reloaded</h1>
+        <h5>Jquery Plugin</h5>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <p>Cardify Reloaded es un plugin que te ayuda a agregar un efecto de hover a tus imágenes.
+                        El pluggin encuentra todas las imágenes con clase <strong>'imgCardify'</strong> y las reemplaza con un 
+                        nuevo elemento figure que contiene la imagen y el figcaption con el texto que aparece
+                        en el atributo 'alt' de la imagen.
+                    </p>
+                </div>
+            </div>
         </div>
     </main>
+    <section class="container">
+        <h4 class="center-align">Demo</h4>
+        <div class="row">
+            <div class="wrap col s4">
+                <img class="responsive-img imgCardify" src="assets/images/natu1.jpg" alt="">
+            </div>
+            <div class="wrap col s4">
+                <img class="responsive-img imgCardify" src="assets/images/natu2.jpg" alt="">
+            </div>
+            <div class="wrap col s4">
+                <img class="responsive-img imgCardify" src="assets/images/natu3.jpg" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="wrap col s4">
+                <img class="responsive-img imgCardify" src="assets/images/natu4.jpg" alt="">
+            </div>
+            <div class="wrap col s4">
+                <img class="responsive-img imgCardify" src="assets/images/natu5.jpeg" alt="">
+            </div>
+            <div class="wrap col s4">
+                <img class="responsive-img imgCardify" src="assets/images/natu6.jpg" alt="">
+            </div>
+        </div>
+    </section>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
