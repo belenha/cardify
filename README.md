@@ -38,8 +38,8 @@ con el texto del atributo `alt` de la imagen.
 
 Belén y Elvia
 
-
-
-
 [![forthebadge](https://forthebadge.com/images/badges/winter-is-coming.svg)](https://forthebadge.com)
+
+## Desarrollado para 
+[Laboratoria](http://laboratoria.la)
 
