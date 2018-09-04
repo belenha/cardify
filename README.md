@@ -30,7 +30,7 @@ con el texto del atributo `alt` de la imagen.
 
 4. Puedes modificar los estilos utilizando las clases "principal" para la etiqueta &lt;figure&gt; e "imgTitle" para la etiqueta &lt;figcaption&gt;.
 
-![preview]
+![preview](https://user-images.githubusercontent.com/37427270/45058827-7bc9bb00-b05f-11e8-955e-9c5ca3e756cb.png)
 
 ***
 [![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
